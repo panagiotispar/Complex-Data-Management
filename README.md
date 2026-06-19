@@ -65,7 +65,6 @@ To perform Range and kNN similarity queries on 10,000 dense 10-dimensional vecto
 * **Dynamic Pruning in kNN:** Utilizing a Max-Heap to track the $k$-th best distance allowed the search radius ($\epsilon$) to dynamically shrink, dramatically accelerating the pruning process in later stages of the dataset.
 
 ### 📸 Performance Metrics
-*(Add your own screenshot of the plots from the report here)*
 ![iDistance Performance Plot](screenshots/vector_search_plot.png)
 
 ---
@@ -155,3 +154,22 @@ cd set_3_vector_search
   python vector_search.py 10 0.2 5
   ```
   to evaluate the queries with 10 pivots, a radius of 0.2, and 5 nearest neighbors. The script will execute the Naive, Pivot-based, and iDistance methods sequentially and output comparative metrics.
+
+---
+
+## 📄 Reports
+For full mathematical analysis, architectural details, and benchmark plots:
+* [Project 1 - Excercise 1: Histograms Report](set_1_histograms_joins/part_1/Histograms_Report.pdf)
+* [Project 1 - Excercise 2: Join Evaluation Report](set_1_histograms_joins/part_2/Join_Evaluation_Report.pdf)
+* [Project 2: Spatial Data Report](set_2_spatial_rtree/Spatial_Data_Report.pdf)
+* [Project 3: Vector Search Report](set_3_vector_search/Vector_Search_Report.pdf)
+
+---
+## 👨‍💻 Authors
+**Panagiotis Paraskevopoulos**
+*Student, Dept. of Computer Engineering and Informatics, UOI*
+[GitHub Profile](https://github.com/panagiotispar)
+
+**Aggelos Bezaitis**
+*Student, Dept. of Computer Engineering and Informatics, UOI*
+[GitHub Profile](https://github.com/BezAggelos)
