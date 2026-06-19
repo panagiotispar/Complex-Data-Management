@@ -43,8 +43,7 @@ To construct an R-Tree using the Sort-Tile-Recursive (STR) bulk-loading algorith
 * MBR pruning allowed the algorithm to discard massive portions of the dataset instantly, significantly outperforming linear coordinate scanning.
 
 ### 📸 Spatial Results
-*(Add your own screenshot here)*
-![R-Tree Architecture](screenshots/rtree_structure.png)
+![R-Tree Architecture](screenshots/r-tree.png)
 
 ---
 
